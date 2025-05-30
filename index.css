@@ -84,14 +84,14 @@ header h1 {
   white-space: nowrap;
   border-right: 2px solid #6a1b9a;
   width: 0;
-  animation: typing 4s steps(25, end) infinite, blink 0.75s step-end infinite;
+  animation: typing 4s steps(20, end) infinite, blink 0.75s step-end infinite;
 }
 @keyframes typing {
   0% {
     width: 0;
   }
   50% {
-    width: 25ch;
+    width: 16ch;
   }
   100% {
     width: 0;
